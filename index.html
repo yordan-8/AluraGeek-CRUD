@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>ALURA-GYM</title>
+		<link rel="stylesheet" href="styles.css" />
+		
+	</head>
+	<body>
+		<header>
+			<h1>ALURA-GYM</h1>
+
+	
+			<div class="container-icon">
+				<div class="container-cart-icon">
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						fill="none"
+						viewBox="0 0 24 24"
+						stroke-width="1.5"
+						stroke="currentColor"
+						class="icon-cart"
+					>
+						<path
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
+						/>
+					</svg>
+					<div class="count-products">
+						<span id="contador-productos">0</span>
+					</div>
+				</div>
+
+				
+
+
+		
+				<div class="container-cart-products hidden-cart">
+					<div class="row-product hidden">
+						<div class="cart-product">
+							<div class="info-cart-product">
+								<span class="cantidad-producto-carrito">1</span>
+								<p class="titulo-producto-carrito">pesas</p>
+								<span class="precio-producto-carrito">$80</span>
+							</div>
+
+					
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								fill="none"
+								viewBox="0 0 24 24"
+								stroke-width="1.5"
+								stroke="currentColor"
+								class="icon-close"
+							>
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									d="M6 18L18 6M6 6l12 12"
+								/>
+							
+							</svg>
+						</div>
+					</div>
+					 <!-- BANNER -->
+					 <section class="banner container">
+						<div class="image__banner1"></div>
+						<article class="banner__details">
+						  <div class="banner__text">
+							<h1 class="banner__text__title"></h1>
+						   
+						   
+						  </div>
+						</article>
+					  </section>
+					  <!-- TARJETAS -->	
+					  				
+
+					<div
+					 class="cart-total hidden">
+						<h3>Total:</h3>
+						<span class="total-pagar">$200</span>
+					</div>
+					<p class="cart-empty">El carrito está vacío</p>
+				</div>
+			</div>
+		</header>
+
+		<header>
+			<h2 class="info-titulo">LISTA DE PRODUCTOS</h2>
+		</header>
+
+		<div class="container-items">
+			<div class="item">
+				<figure>
+					<img
+						
+						src="https://www.evolutionfitness.co/wp-content/uploads/2022/08/6kg-Pesa-Rusa_001-700x700.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>MANCUERNA KETTLE </h2>
+					<p class="price">$198</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="https://www.evolutionfitness.co/wp-content/uploads/2022/08/Hexagonal_001-700x700.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>MANCUERNA </h2>
+					<p class="price">$50</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="https://www.evolutionfitness.co/wp-content/uploads/2022/08/RU06_0010_RUEDA_ADOMINAL_01-700x700.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>RUEDA ABDOMINAL</h2>
+					<p class="price">$65</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="https://www.evolutionfitness.co/wp-content/uploads/2022/08/Bandax5_6-700x700.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>SET DE BANDAS X 5</h2>
+					<p class="price">$44</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="https://www.evolutionfitness.co/wp-content/uploads/2022/08/NBR_Everlast_Purpura-700x700.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>COLCHONETA PRO 1 CM</h2>
+					<p class="price">$66</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+		</div>
+
+		 <!-- FOOTER -->
+		 <footer
+		 id="contacto"
+		 class="footer container" >
+		 <section class="footer__contacto">
+		   <div class="footer__contacto_text">
+			 <h1 class="footer__contacto__title">Contacto</h1>
+			 <p class="footer__contacto__paragraph" class=info-titulo>
+			   Si desea un producto o tiene alguna consulta Rellene el siguiente formulario
+			 </p>
+			 <p class="footer__contacto__paragraph"></p>
+		   </div>
+	 
+		   <form
+			 action="https://formspree.io/f/mwkjnrez"
+			 method="POST"
+			 class="form">
+			 <fieldset>
+			   <div class="input-container" cass="info-product button">
+				 <input
+				   type="text"
+				   name="nombre"
+				   id="nombre"
+				   placeholder="nombre"
+				   class="input"
+				   data-tipo="nombre"
+				   pattern=".{1,40}$"
+				   required />
+				 <label
+				   class="input-label"  
+				   for="nombre">Nombre</label
+				   for="email">Email:</label>
+				  <input type="email" id="email" name="email"><br><br>
+	 
+				 <span class="input-message-error"></span>
+			   </div>
+			   <div class="textarea-container">
+				 <textarea
+				   name="mensaje"
+				   id="mensaje"
+				   placeholder="Mensaje"
+				   data-tipo="mensaje"
+				   rows="8"
+				   class="textarea-input"
+				   required></textarea>
+				 <label
+				   class="textarea-label"
+				   for="mensaje"
+				   >Mensaje</label
+				 >
+				 <span class="textarea-message-error"></span>
+			   </div>
+			 </fieldset>
+			 <button class="btn-add-cart">Enviar Mensaje</button>
+		   </form>
+		 </section>
+	 
+		   <section class="footer__copy">
+			 <h1 class="footer__copy__text">&copy; Yordan</h1>
+		   </section>
+		 </footer>
+		 <!-- SWEET ALERT -->
+		 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+		 <!-- CONTROLLERS -->
+		 <script
+		   type="module"
+		   src="../controllers/filter-by-belleza.controller.js"></script>
+		 <!-- VALIDACIONES Y ESTILADO CON JS -->
+		 <script
+		   type="module"
+		   src="../js/app.js"></script>
+		 <script src="../js/styled.js"></script>
+		 <script src="../js/carro1.js"></script>
+		 
+	   </body>
+	 </html>
+
+		<script src="index.js"></script>
+	</body>
+</html>
